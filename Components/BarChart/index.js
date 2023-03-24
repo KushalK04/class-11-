@@ -31,11 +31,11 @@ export default function BarChart() {
 
     useEffect(() => {
         setChartData({
-            labels: ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"],
+            labels: ["2017", "2018", "2019", "2020", "2021"],
             datasets: [
                 {
-                    label: 'Sales $',
-                    data: [15323, 9900, 15000, 24000, 10000, 30000, 1000],
+                    label: 'Revenue',
+                    data: [12376, 13511, 14809, 15797, 16590],
                     borderColor: 'rgb(53,162,235)',
                     backgroundColor: 'rgba(53,162,235,0.4)'
                 }
@@ -49,7 +49,7 @@ export default function BarChart() {
                 },
                 title: {
                     display: true,
-                    text: "Daily Revenue"
+                    text: "Private nursing and residential care facilities, summary statistics"
                 }
             },
             maintainAspectRatio: false,

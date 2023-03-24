@@ -6,3 +6,30 @@
   padding: 6rem;
   min-height: 100vh;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%
+}
+
+.drop {
+  box-shadow: 0px 0px 24px blue;
+}
+
+.bot {
+  margin-bottom: 4%;
+}
+.drop:hover {
+  cursor: pointer;
+  margin-top: -2px;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 1000px){
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%
+  }
+}

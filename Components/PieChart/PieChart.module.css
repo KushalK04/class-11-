@@ -1,0 +1,10 @@
+.h33 {
+    text-align: center;
+    color: gray;
+}
+
+.idk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

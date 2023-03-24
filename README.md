@@ -5,5 +5,10 @@ https://react-chartjs-2.js.org/
 
 npm i react-chartjs-2
 
+npm install faker
+
 ## BarChart
+## Pie Chart
+## Polar Area Chart 
+## Line Chart
 
